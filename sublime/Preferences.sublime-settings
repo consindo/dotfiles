@@ -1,6 +1,9 @@
 {
-  "binary_file_patterns":
-  [
+  "added_words": [
+    "Kubernetes",
+    "Terraform"
+  ],
+  "binary_file_patterns": [
     "*.jpg",
     "*.jpeg",
     "*.png",
@@ -17,18 +20,25 @@
     "*.woff2"
   ],
   "color_scheme": "Packages/Babel/Monokai Phoenix.tmTheme",
-  "folder_exclude_patterns":
-  [
+  "ensure_newline_at_eof_on_save": true,
+  "file_exclude_patterns": [
+    "report.html",
+    ".DS_Store",
+    "*.min.js"
+  ],
+  "folder_exclude_patterns": [
     ".svn",
     ".git",
     ".hg",
     "CVS",
-    "node_modules"
+    "node_modules",
+    "generated",
+    ".terraform",
+    "build"
   ],
-  "font_size": 12,
+  "font_size": 16,
   "highlight_line": true,
-  "ignored_packages":
-  [
+  "ignored_packages": [
     "Vintage"
   ],
   "line_padding_top": 1,
