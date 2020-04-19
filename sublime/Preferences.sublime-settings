@@ -1,7 +1,8 @@
 {
   "added_words": [
     "Kubernetes",
-    "Terraform"
+    "Terraform",
+    "Xero"
   ],
   "binary_file_patterns": [
     "*.jpg",
@@ -34,14 +35,21 @@
     "node_modules",
     "generated",
     ".terraform",
-    "build"
+    "build",
+    "__pycache__"
   ],
-  "font_size": 16,
+  "font_face": "JetBrains Mono",
+  "font_options": [
+    "dlig"
+  ],
+  "font_size": 15,
   "highlight_line": true,
   "ignored_packages": [
     "Vintage"
   ],
   "line_padding_top": 1,
+  "overlay_scroll_bars": "enabled",
+  "scroll_past_end": true,
   "tab_size": 2,
   "theme": "Adaptive.sublime-theme",
   "translate_tabs_to_spaces": true
